@@ -20,38 +20,14 @@
   <h3>Theater Mode — Before vs After</h3>
   <div class="screenshot-grid">
     <figure>
-      <img src="examples/ytb-theater-light.png" alt="Before theater mode — default YouTube player with square corners and black bars">
+      <img src="examples/ytb-theater.png" alt="Before theater mode — default YouTube player with square corners and black bars">
       <figcaption>Before — default YouTube player</figcaption>
     </figure>
     <figure>
-      <img src="docs/images/after-theater.png" alt="After theater mode — rounded corners, blended bars, control bar visible">
-      <figcaption>After — YT Curved applied</figcaption>
+      <img src="examples/ytb-theater-light.png" alt="After theater mode — rounded corners, blended bars, control bar visible">
+      <figcaption>light mode version</figcaption>
     </figure>
   </div>
-
-  <h3>Fullscreen Mode</h3>
-  <figure>
-    <img src="docs/images/fullscreen.png" alt="Fullscreen mode with rounded corners and symmetric letterboxing">
-    <figcaption>Fullscreen — rounded corners with symmetric letterboxing</figcaption>
-  </figure>
-
-  <h3>Custom Control Bar</h3>
-  <figure>
-    <img src="docs/images/control-bar.png" alt="Custom control bar with buttons below the player">
-    <figcaption>Control bar — pill-shaped, appears below the player</figcaption>
-  </figure>
-
-  <h3>Settings Popup</h3>
-  <figure>
-    <img src="docs/images/settings-popup.png" alt="Radius slider popup with orange accent">
-    <figcaption>Radius slider — 5px to 40px, live preview</figcaption>
-  </figure>
-
-  <h3>Light Mode Support</h3>
-  <figure>
-    <img src="docs/images/light-mode.png" alt="Light mode with header staying light in theater mode">
-    <figcaption>Light mode — header stays light in theater mode</figcaption>
-  </figure>
 
   <h3>Extension Icon</h3>
   <figure style="max-width: 200px;">
