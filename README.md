@@ -21,13 +21,15 @@
   <div class="screenshot-grid">
     <figure>
       <img src="examples/ytb-theater.png" alt="Before theater mode — default YouTube player with square corners and black bars">
-      <figcaption>Before — default YouTube player</figcaption>
-    </figure>
-    <figure>
-      <img src="examples/ytb-theater-light.png" alt="After theater mode — rounded corners, blended bars, control bar visible">
-      <figcaption>light mode version</figcaption>
     </figure>
   </div>
+  
+<h3> Theater Mode Light mode </h3>
+<div class="screenshot-light">
+  <figure>
+  <img src="examples/ytb-theater-light.png" alt="After theater mode — rounded corners, blended bars, control bar visible">
+  </figure>
+</div>
 
   <h3>Extension Icon</h3>
   <figure style="max-width: 200px;">
