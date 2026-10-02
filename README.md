@@ -20,7 +20,7 @@
   <h3>Theater Mode — Before vs After</h3>
   <div class="screenshot-grid">
     <figure>
-      <img src="docs/images/before-theater.png" alt="Before theater mode — default YouTube player with square corners and black bars">
+      <img src="examples/ytb-theater-light.png" alt="Before theater mode — default YouTube player with square corners and black bars">
       <figcaption>Before — default YouTube player</figcaption>
     </figure>
     <figure>
