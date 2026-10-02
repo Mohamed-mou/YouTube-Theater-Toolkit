@@ -34,21 +34,8 @@
   <h3>Extension Icon</h3>
   <figure style="max-width: 200px;">
     <img src="icons/icon128.png" alt="Extension icon — orange rounded rectangle with play triangle">
-    <figcaption>Toolbar icon</figcaption>
   </figure>
-
-  <div class="note">
-    <strong>📝 Note:</strong> Replace the image paths in <code>docs/images/</code> with your actual
-    screenshots. The expected folder structure is:
-    <pre><code>docs/
-└── images/
-    ├── before-theater.png
-    ├── after-theater.png
-    ├── fullscreen.png
-    ├── control-bar.png
-    ├── settings-popup.png
-    └── light-mode.png</code></pre>
-  </div>
+  
 
   <!-- FEATURES -->
   <h2 id="features">✨ Features</h2>
@@ -210,27 +197,6 @@ cd yt-curved</code></pre>
 
   <p>All settings are stored in <code>chrome.storage.sync</code> and persist across sessions.</p>
 
-  <!-- FILE STRUCTURE -->
-  <h2 id="structure">📂 File Structure</h2>
-
-  <pre><code>yt-curved/
-├── manifest.json           # Extension manifest (v3)
-├── content.js              # Main logic (detection, bar, buttons)
-├── styles.css              # All visual styles
-├── icons/
-│   ├── icon16.png
-│   ├── icon48.png
-│   └── icon128.png
-├── docs/
-│   └── images/             # Screenshots for this README
-│       ├── before-theater.png
-│       ├── after-theater.png
-│       ├── fullscreen.png
-│       ├── control-bar.png
-│       ├── settings-popup.png
-│       └── light-mode.png
-└── readme.md</code></pre>
-
   <!-- TECHNICAL -->
   <h2 id="technical">🛠️ Technical Details</h2>
 
@@ -292,54 +258,6 @@ cd yt-curved</code></pre>
     </tbody>
   </table>
 
-  <!-- COMPATIBILITY -->
-  <h2 id="compatibility">🧪 Compatibility</h2>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Browser</th>
-        <th>Version</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Google Chrome</td><td>100+</td><td>✅ Tested</td></tr>
-      <tr><td>Microsoft Edge</td><td>100+</td><td>✅ Works (Chromium)</td></tr>
-      <tr><td>Brave</td><td>1.40+</td><td>✅ Works (Chromium)</td></tr>
-      <tr><td>Opera</td><td>90+</td><td>✅ Works (Chromium)</td></tr>
-      <tr><td>Firefox</td><td>—</td><td>❌ Not supported (MV3 differences)</td></tr>
-      <tr><td>Safari</td><td>—</td><td>❌ Not supported</td></tr>
-    </tbody>
-  </table>
-
-  <!-- KNOWN ISSUES -->
-  <h2 id="issues">🐛 Known Issues</h2>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Issue</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>"Create" button text may stay white in light mode on some YouTube versions</td>
-        <td>🟡 Minor — cosmetic only</td>
-      </tr>
-      <tr>
-        <td>Video centering in fullscreen can occasionally shift on non-16:9 videos</td>
-        <td>🟡 Rare — YouTube's native behavior</td>
-      </tr>
-      <tr>
-        <td>Screenshot may fail on DRM-protected content</td>
-        <td>⚪ Expected — browser security</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <p>Found a bug? <a href="https://github.com/your-username/yt-curved/issues">Open an issue</a>.</p>
 
   <!-- ROADMAP -->
   <h2 id="roadmap">🗺️ Roadmap</h2>
@@ -353,57 +271,8 @@ cd yt-curved</code></pre>
     <li>✅ Screenshot button</li>
     <li>✅ Remember theater mode</li>
     <li>✅ Header fix for light mode</li>
-    <li>⬜ Blurred background behind video</li>
-    <li>⬜ Ambient glow effect</li>
-    <li>⬜ Custom CSS injection</li>
-    <li>⬜ Per-channel settings</li>
-    <li>⬜ Auto-skip intros/outros</li>
-    <li>⬜ Firefox port</li>
   </ul>
 
-  <!-- CONTRIBUTING -->
-  <h2 id="contributing">🤝 Contributing</h2>
-
-  <p>Contributions are welcome! To get started:</p>
-
-  <ol>
-    <li>Fork the repository.</li>
-    <li>Create a feature branch: <code>git checkout -b feature/amazing-feature</code></li>
-    <li>Commit your changes: <code>git commit -m 'Add some amazing feature'</code></li>
-    <li>Push the branch: <code>git push origin feature/amazing-feature</code></li>
-    <li>Open a Pull Request.</li>
-  </ol>
-
-  <h3>Coding Style</h3>
-  <ul>
-    <li><strong>JavaScript:</strong> ES6+, 2-space indentation, semicolons.</li>
-    <li><strong>CSS:</strong> BEM-ish naming, one property per line.</li>
-    <li><strong>Comments:</strong> Clear section headers with <code>/* ===== */</code>.</li>
-  </ul>
-
-  <!-- LICENSE -->
-  <h2 id="license">📄 License</h2>
-
-  <p>Distributed under the <strong>MIT License</strong>. See <code>LICENSE</code> for more information.</p>
-
-  <!-- ACKNOWLEDGMENTS -->
-  <h2 id="acknowledgments">🙏 Acknowledgments</h2>
-
-  <ul>
-    <li>Inspired by the YouTube theater mode community.</li>
-    <li>Icons by <a href="https://materialdesignicons.com/">Material Design Icons</a>.</li>
-    <li>Built with ❤️ using vanilla JavaScript and CSS.</li>
-  </ul>
-
-  <!-- CONTACT -->
-  <h2 id="contact">📬 Contact</h2>
-
-  <ul>
-    <li><strong>Author:</strong> Your Name</li>
-    <li><strong>Email:</strong> your.email@example.com</li>
-    <li><strong>GitHub:</strong> <a href="https://github.com/your-username">@your-username</a></li>
-    <li><strong>Chrome Web Store:</strong> <a href="https://chrome.google.com/webstore/detail/...">YT Curved</a></li>
-  </ul>
 
   <!-- SUPPORT -->
   <h2 id="support">⭐ Show Your Support</h2>
